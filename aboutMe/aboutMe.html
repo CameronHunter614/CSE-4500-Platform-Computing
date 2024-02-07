@@ -1,188 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="aboutMe.css">
-    <script src="aboutMe.js"></script>
-    <title>About Me</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="aboutMe.css">
+  <script src="aboutMe.js"></script>
+  <title>About Me</title>
 </head>
+<!--Assignment Requirements
+  Due Feb 14, 2024
+  Hours spent: ~3hrs
+  [X] Modifies title in head so that the tab has a unique name, (e.g. About Me). (1pts)
+  [X] Uses a mix of headers, paragraphs, and div's. (3pts)
+  [X] Includes at least 3 paragraphs. (3pts)
+  [X] Includes at least one image. (2pts)
+  [X] Includes a .css file to style with at least 4 ways to format the elements in the html. (3pts)
+  [ ] Includes a link that directs to your Github account (can be main account or specifically to your Platform_Computing Repo). (3pts)
+  
+  The following **bonus** features are implemented:
+  [ ] Applies different font(s). (0.5 pt)
+  [ ] Applies border and margins. (0.5 pt)
+  [ ] DESCRIBE ANY OTHER FEATURES HERE.
+-->
+<!--Commit Summary:
+  Fixed tabs to be 2 spaces
+  Got rid of default open on games tab
+  Updated music to be ordered by year
+  Changed Larks' Tongues In Aspic to In The Court Of The Crimson King
+  Filepaths changed after folders changed
+  Updated colors for readability
+
+-->
+<!--To Do List:
+  [X]Make sure paragraphs are centered
+  [ ]Add more to Games first paragraph
+  [ ]Add more to Books
+  [ ]Add more to Outdoors
+  [X]Images display in a horizontal line centered onscreen
+  [ ]Title and author name underneath each image
+  [ ]Update images to use relative filepath for github upload
+  [X]Buttons should fit to screen
+  [ ]Rename images for readability
+  [ ]Page margins
+
+-->
+
 <body>
-    <h1>About Me</h1>
-        <!--Should be centered-->
-        <p>My name is Cameron Hunter. This is my second semester as a senior at CSUSB. This page is an introduction to me.</p>
-    <h2>My Time at CSUSB</h2>
-        <p>Like I mentioned above, this year is my senior year here at CSUSB. My major is Computer Science. While most of my time at CSUSB has been spent in the Computer Science
-            program, I do also have some experience in other fields. In my freshman year, I took a few semester of Japanese and more recently, I have ventured into GIS starting 
-            last semester and continuing this semester. GIS stands for Geographic Information Systems, and focuses on using computers to make and manipulate maps.
-        </p>
+  <h1>About Me</h1>
+    <p class="indent">My name is Cameron Hunter. This is my second semester as a senior at CSUSB. This page is an introduction to me.</p>
 
-    <h2>Hobbies</h2>
+  <h2>My Time at CSUSB</h2>
+    <p class="indent">Like I mentioned above, this year is my senior year here at CSUSB. My major is Computer Science. While most of my time at CSUSB has been spent in the Computer Science 
+      program, I do also have some experience in other fields. In my freshman year, I took a few semester of Japanese and more recently, I have ventured into GIS starting 
+      last semester and continuing this semester. GIS stands for Geographic Information Systems, and focuses on using computers to make and manipulate maps.</p>
 
-        <h3>Games</h3>
-            <!--Needs more-->
-           <p>I have been playing video games for almost as long as I can remember and they have been a very large part of my life. ...</p>
+    <h3>Platform Computing Experience</h3>
+      <p class="indent">...</p>
 
-           <p>I have also been collecting Pokemon cards for a long time. In highschool, I reintroduced a passion for the Pokemon TCG to my friends and we went to several Pokemon 
-            set prereleases together. This rediscovery of trading card games lead me to Magic: The Gathering, which is my current favorite card game to play. However, Pokemon is 
-            still my favorite TCG to collect.</p>
+  <h2>Hobbies</h2>
+    <h3>Games</h3>
+      <!--Needs more-->
+      <p class="indent">I have been playing video games for almost as long as I can remember and they have been a very large part of my life. ...</p>
 
-        <h3>Music</h3>
-            <p>I really love listening to music and I am constantly looking for new music. I have a pretty small collection of vinyl records of some of my favorite albums as well. 
-                Quite recently, I bought an electric bass and I have been trying to teach myself to play, though it is very slow going. My eventual goal is to also learn to play 
-                guitar, but I can't in good conscience buy myself a guitar and all the related equipment before I even learn to play my bass.</p>
+      <p class="indent">I have also been collecting Pokemon cards for a long time. In highschool, I reintroduced a passion for the Pokemon TCG to my friends and we went to several Pokemon 
+        set prereleases together. This rediscovery of trading card games lead me to Magic: The Gathering, which is my current favorite card game to play. However, Pokemon is 
+        still my favorite TCG to collect.</p>
 
-        <h3>Movies</h3>
-            <p>Going to the movie theater and watching a good movie is one of my favorite things to do on a day off. Over time, I've come to appreciate the kind of films that come 
-                from smaller directors and especially the kind of films that come out of a small budget. One of my favorite movies is Evil Dead II, and by extension The Evil Dead 
-                and Army of Darkness because they really make the most of their small budgets in a way that is really fun to watch.</p>
+    <h3>Music</h3>
+      <p class="indent">I really love listening to music and I am constantly looking for new music. I have a pretty small collection of vinyl records of some of my favorite albums as well. 
+        Quite recently, I bought an electric bass and I have been trying to teach myself to play, though it is very slow going. My eventual goal is to also learn to play 
+        guitar, but I can't in good conscience buy myself a guitar and all the related equipment before I even learn to play my bass.</p>
 
-        <h3>Books</h3>
-            <!--Needs more-->
-            <p>I have loved reading ever since I was a child and that love continues to today. Most of my recent reading has been in the form of manga and other comics, though I 
-                have been trying to read more novels. ...</p>
+    <h3>Movies</h3>
+      <p class="indent">Going to the movie theater and watching a good movie is one of my favorite things to do on a day off. Over time, I've come to appreciate the kind of films that come 
+        from smaller directors and especially the kind of films that come out of a small budget. One of my favorite movies is Evil Dead II, and by extension The Evil Dead 
+        and Army of Darkness because they really make the most of their small budgets in a way that is really fun to watch.</p>
 
-        <h3>Outdoors</h3>
-            <p>...</p>
+    <h3>Books</h3>
+      <!--Needs more-->
+      <p class="indent">I have loved reading ever since I was a child and that love continues to today. Most of my recent reading has been in the form of manga and other comics, though I 
+        have been trying to read more novels. ...</p>
+
+    <h3>Outdoors</h3>
+      <p class="indent">...</p>
     
-    <h2>Favorites</h2>
-    <!--Images should display in a horizontal line centered onscreen. There should be a title and author name underneath each image.-->
-    <!--update images to use relative filepath for github upload-->
+  <h2>Favorites</h2>
 
-        <!-- Tab links -->
-        <div class="tab">
-            <button class="tablinks" onclick="openFav(event, 'Games')" id="defaultOpen">Games</button>
-            <button class="tablinks" onclick="openFav(event, 'Music')">Music</button>
-            <button class="tablinks" onclick="openFav(event, 'Movies')">Movies</button>
-            <button class="tablinks" onclick="openFav(event, 'Books')">Books</button>
+    <!-- Tab links -->
+    <div class="tab">
+      <button class="tablinks" onclick="openFav(event, 'Games')">Games</button>
+      <button class="tablinks" onclick="openFav(event, 'Music')">Music</button>
+      <button class="tablinks" onclick="openFav(event, 'Movies')">Movies</button>
+      <button class="tablinks" onclick="openFav(event, 'Books')">Books</button>
+    </div>
+
+    <div id="Games" class="tabcontent">
+      <h3>Games</h3>
+      <!--Round corners on images-->
+      <div class="row">
+        <div class="column">
+        <div class="card">Baldur's Gate 3</div>
+          <img class="game" src="Favorites/Games/Baldur's_Gate_3_Cover.jpg" alt="Baldur's Gate 3 Cover" class="center">
+          <p>2023</p>
+        </div>
+        <div class="column">
+        <div class="card">Elden Ring</div>
+          <img class="game" src="Favorites/Games/Elden_Ring_Cover.jpg" alt="Elden Ring Cover" class="center">
+          <p>2022</p>
+        </div>
+        <div class="column">
+        <div class="card">Signalis</div>
+          <img class="game" src="Favorites/Games/Signalis_Cover.jpg" alt="Signalis Cover" class="center">
+          <p>2022</p>
+        </div>
+        <div class="column">
+        <div class="card">Vampire Survivors</div>
+          <img class="game" src="Favorites/Games/Vampire_Survivors_Cover.jpg" alt="Vampire Survivors Cover" class="center">
+          <p>2022</p>
+        </div>
+        <div class="column">
+        <div class="card">Hades</div>
+          <img class="game" src="Favorites/Games/Hades_Cover.jpg" alt="Hades Cover" class="center">
+          <p>2020</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+        <div class="card">Destiny 2</div>
+          <img class="game" src="Favorites/Games/Destiny_2_Cover.jpg" alt="Destiny 2 Cover" class="center">
+          <p>2017</p>
+        </div>
+        <div class="column">
+        <div class="card">Stardew Valley</div>
+          <img class="game" src="Favorites/Games/Stardew_Valley_Cover.png" alt="Stardew Valley Cover" class="center">
+          <p>2016</p>
+        </div>
+        <div class="column">
+        <div class="card">Destiny</div>
+          <img class="game" src="Favorites/Games/Destiny_Cover.jpg" alt="Destiny Cover" class="center">
+          <p>2014</p>
+        </div>
+        <div class="column">
+        <div class="card">Minecraft</div>
+          <img class="game" src="Favorites\Games\Minecraft_Cover.png" alt="Minecraft Cover" class="center">
+          <p>2011</p>
+        </div>
+        <div class="column">
+        <div class="card">Pokemon Emerald</div>
+          <img class="game" src="Favorites/Games/Pokemon_Emerald_Cover.jpg" alt="Pokemon Emerald Cover" class="center">
+          <p>2004</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="Music" class="tabcontent">
+      <h3>Music</h3>
+        <div class="row">
+          <div class="column">
+          <div class="card">The Record</div>
+            <img class="album" src="Favorites/Music/The_Record_Cover.jpg" alt="The Record Cover" class="center">
+            <p>Boygenius</p>
+            <p>2023</p>
+          </div>
+          <div class="column">
+          <div class="card">Lust For Life</div>
+            <img class="album" src="Favorites/Music/Lust_For_Life_Cover.png" alt="Lust For Life Cover" class="center">
+            <p>Lana Del Rey</p>
+            <p>2017</p>
+          </div>
+          <div class="column">
+          <div class="card">Songs For The Deaf</div>
+            <img class="album" src="Favorites/Music/Songs_For_The_Deaf_Cover.png" alt="Songs For the Deaf Cover" class="center">
+            <p>Queens of the Stone Age</p>
+            <p>2002</p>
+          </div>
+          <div class="column">
+          <div class="card">D>E>A>T>H>M>E>T>A>L</div>
+            <img class="album" src="Favorites/Music/Death_Metal_Cover.webp" alt="D>E>A>T>H>M>E>T>A>L Cover" class="center">
+            <p>Panchiko</p>
+            <p>2000</p>
+          </div>
+          <div class="column">
+          <div class="card">MTV Unplugged In New York</div>
+            <img class="album" src="Favorites/Music/MTV_Unplugged_In_New_York_Cover.png" alt="MTV Unplugged In New York Cover" class="center">
+            <p>Nirvana</p>
+            <p>1994</p>
+          </div>
         </div>
 
-        <div id="Games" class="tabcontent">
-            <h3>Games</h3>
-            <!--Order by year, add more games-->
-                <div class="row">
-                    <div class="column">
-                    <div class="card">Minecraft</div>
-                        <img src="D:\School Spring 2024\CSE 4500\aboutMe\Favorites\Games\Minecraft_cover.png" alt="Minecraft Cover" class="center">
-                    </div>
-                    <div class="column">
-                    <div class="card">Destiny 2</div>
-                        <img src="D:\School Spring 2024\CSE 4500\aboutMe\Favorites\Games\Destiny_2_(artwork).jpg" alt="Destiny 2 Cover" class="center">
-                    </div>
-                    <div class="column">
-                    <div class="card">Hades</div>
-                        <!--Find images-->
-                        <img src="" alt="Hades Cover" class="center">
-                    </div>
-                    <div class="column">
-                    <div class="card">Vampire Survivors</div>
-                        <!--Find images-->
-                        <img src="" alt="Vampire Survivors Cover" class="center">
-                    </div>
-                    <div class="column">
-                    <div class="card">Signalis</div>
-                        <img src="D:\School Spring 2024\CSE 4500\aboutMe\Favorites\Games\Signalis_cover.jpg" alt="Signalis Cover" class="center">
-                    </div>
-                </div>
+        <div class="row">
+          <div class="column">
+          <div class="card">Ride The Lightning</div>
+            <img class="album" src="Favorites/Music/Ride_The_Lightning_Cover.png" alt="Ride The Lightning Cover" class="center">
+            <p>Metallica</p>
+            <p>1984</p>
+          </div>
+          <div class="column">
+          <div class="card">Wish You Were Here</div>
+            <img class="album" src="Favorites/Music/Wish_You_Were_Here_Cover.png" alt="Wish You Were Here Cover" class="center">
+            <p>Pink Floyd</p>
+            <p>1975</p>
+          </div>
+          <div class="column">
+          <div class="card">In The Court Of The Crimson King</div>
+            <img class="album" src="Favorites/Music/In_the_Court_of_the_Crimson_King_Cover.jpeg" alt="In The Court Of The Crimson King Cover" class="center">
+            <p>King Crimson</p>
+            <p>1973</p>
+          </div>
+          <div class="column">
+          <div class="card">Led Zeppelin IV</div>
+            <img class="album" src="Favorites/Music/Led_Zeppelin_IV_Cover.jpg" alt="Led Zeppelin IV Cover" class="center">
+            <p>Led Zeppelin</p>
+            <p>1971</p>
+          </div>
+          <div class="column">
+          <div class="card">Paranoid</div>
+            <img class="album" src="Favorites/Music/Paranoid_Cover.jpg" alt="Paranoid Cover" class="center">
+            <p>Black Sabbath</p>
+            <p>1970</p>
+          </div> 
+        </div>
+    </div>
+
+    <div id="Movies" class="tabcontent">
+      <h3>Movies</h3>
+        <div class="row">
+          <div class="column">
+          <div class="card">John Wick Chapter 4</div>
+            <img class="movie" src="Favorites/Movies/John_Wick_Chapter_4_Cover.jpg" alt="John Wick Chapter 4 Cover" class="center">
+            <p>2023</p>
+          </div>
+          <div class="column">
+          <div class="card">The Batman</div>
+            <img class="movie" src="Favorites\Movies\The_Batman_Cover.jpg" alt="The Batman Cover" class="center">
+            <p>2022</p>
+          </div>
+          <div class="column">
+          <div class="card">The Lighthouse</div>
+            <img class="movie" src="Favorites\Movies\The_Lighthouse_Cover.jpeg" alt="The Lighthouse Cover" class="center">
+            <p>2019</p>
+          </div>
+          <div class="column">
+          <div class="card">A Silent Voice</div>
+            <img class="movie" src="Favorites\Movies\A_Silent_Voice_Film_Cover.jpg" alt="A Silent Voice Cover" class="center">
+            <p>2016</p>
+          </div>
+          <div class="column">
+          <div class="card">No Country For Old Men</div>
+            <img class="movie" src="Favorites\Movies\No_Country_for_Old_Men_Cover.jpg" alt="No Country For Old Men Cover" class="center">
+            <p>2007</p>
+          </div>
         </div>
 
-        <div id="Music" class="tabcontent">
-            <h3>Music</h3>
-            <!--Order by year-->
-                <div class="row">
-                    <div class="column">
-                    <div class="card">Songs For The Deaf</div>
-                        <img src="D:\School Spring 2024\CSE 4500\aboutMe\Favorites\Music\Queens_of_the_Stone_Age_-_Songs_for_the_Deaf.png" alt="Songs For the Deaf Cover" class="center">
-                        <p>Queens of the Stone Age</p>
-                        <p>2002</p>
-                    </div>
-                    <div class="column">
-                    <div class="card">Ride The Ligthning</div>
-                        <img src="D:\School Spring 2024\CSE 4500\aboutMe\Favorites\Music\Ridetl.png" alt="Ride The Lightning Cover" class="center">
-                        <p>Metallica</p>
-                        <p>1984</p>
-                    </div>
-                    <div class="column">
-                    <div class="card">MTV Unplugged In New York</div>
-                        <img src="D:\School Spring 2024\CSE 4500\aboutMe\Favorites\Music\Nirvana_mtv_unplugged_in_new_york.png" alt="MTV Unplugged In New York Cover" class="center">
-                        <p>Nirvana</p>
-                        <p>1994</p>
-                    </div>
-                    <div class="column">
-                    <div class="card">The Record</div>
-                        <img src="D:\School Spring 2024\CSE 4500\aboutMe\Favorites\Music\Boygenius_-_the_record.jpg" alt="The Record Cover" class="center">
-                        <p>Boygenius</p>
-                        <p>2023</p>
-                    </div>
-                    <div class="column">
-                    <div class="card">Larks' Tongues In Aspic</div>
-                        <img src="D:\School Spring 2024\CSE 4500\aboutMe\Favorites\Music\Larks_tongues_in_aspic_album_cover.jpg" alt="Larks' Tongues In Aspic" class="center">
-                        <p>King Crimson</p>
-                        <p>1973</p>
-                    </div>
-                </div>
+        <div class="row">
+          <div class="column">
+          <div class="card">Howl's Moving Castle</div>
+            <img class="movie" src="Favorites\Movies\Howls_Moving_Castle_Cover.jpg" alt="Howl's Moving Castle Cover" class="center">
+            <p>2004</p>
+          </div>
+          <div class="column">
+          <div class="card">There Will Be Blood</div>
+            <img class="movie" src="Favorites\Movies\There_Will_Be_Blood_Cover.jpg" alt="There Will Be Blood Cover" class="center">
+            <p>2007</p>
+          </div>
+          <div class="column">
+          <div class="card">Reservoir Dogs</div>
+            <img class="movie" src="Favorites\Movies\Reservoir_Dogs_Cover.png" alt="Reservoir Dogs Cover" class="center">
+            <p>1992</p>
+          </div>
+          <div class="column">
+          <div class="card">Evil Dead II</div>
+            <img class="movie" src="Favorites\Movies\Evil_Dead_II_Cover.jpg" alt="Evil Dead II Cover" class="center">
+            <p>1987</p>
+          </div>
+          <div class="column">
+          <div class="card">Full Metal Jacket</div>
+            <img class="movie" src="Favorites\Movies\Full_Metal_Jacket_Cover.jpg" alt="Full Metal Jacket Cover" class="center">
+            <p>1987</p>
+          </div>
+        </div>
+    </div>
 
-                <!--D>E>A>T>H>M>E>T>A>L, Wish You Were Here, Paranoid, Led Zeppelin IV, Lust For Life-->
-                <div class="row">
-                    <div class="column">
-                    <div class="card">D>E>A>T>H>M>E>T>A>L</div>
-                        <p>Panchiko</p>
-                        <p>2000</p>
-                    </div>
-                    <div class="column">
-                    <div class="card">Wish You Were Here</div>
-                        <p>Pink Floyd</p>
-                        <p>1975</p>
-                    </div>
-                    <div class="column">
-                    <div class="card">Paranoid</div>
-                        <p>Black Sabbath</p>
-                        <p>1970</p>
-                    </div>
-                    <div class="column">
-                    <div class="card">Led Zeppelin IV</div>
-                        <p>Led Zeppelin</p>
-                        <p>1971</p>
-                    </div>
-                    <div class="column">
-                    <div class="card">Lust For Life</div>
-                        <p>Lana Del Rey</p>
-                        <p>2017</p>
-                    </div>
-                </div>
+    <div id="Books" class="tabcontent">
+      <h3>Books</h3>
+        <div class="row">
+          <div class="column">
+          <div class="card">Chainsaw Man</div>
+            <img class="book" src="Favorites/Books/Chainsawman_Cover.jpg" alt="Chainsaw Man Cover" class="center">
+            <p>Tatsuki Fujimoto</p>
+          </div>
+          <div class="column">
+          <div class="card">Dandadan</div>
+            <img class="book" src="Favorites/Books/Dandadan_Cover.jpg" alt="Dandadan Cover" class="center">
+            <p>Yukinobu Tatsu</p>
+          </div>
+          <div class="column">
+          <div class="card">Daredevil: Born Again</div>
+            <img class="book" src="Favorites/Books/Daredevil_Born_Again_Cover.jpg" alt="Daredevil: Born Again Cover" class="center">
+            <p>Frank Miller & David Mazzucchelli</p>
+          </div>
+          <div class="column">
+          <div class="card">Delicious in Dungeon</div>
+            <img class="book" src="Favorites/Books/Delicious_In_Dungeon_Cover.jpeg" alt="Delicious in Dungeon Cover" class="center">
+            <p>Ryoko Kui</p>
+          </div>
+          <div class="column">
+          <div class="card">I Am A Hero</div>
+            <img class="book" src="Favorites/Books/I_Am_A_Hero_Cover.jpg" alt="I Am A Hero Cover" class="center">
+            <p>Kengo Hanazawa</p>
+          </div>
         </div>
 
-        <div id="Movies" class="tabcontent">
-            <h3>Movies</h3>
-            <!--Order by year, add more movies-->
-                <div class="row">
-                    <div class="column">
-                    <div class="card">The Lighthouse</div>
-                        <p>2019</p>
-                    </div>
-                    <div class="column">
-                    <div class="card">Howl's Moving Castle</div>
-                        <p>2004</p>
-                    </div>
-                    <div class="column">
-                    <div class="card">Reservoir Dogs</div>
-                        <p>1992</p>
-                    </div>
-                    <div class="column">
-                    <div class="card">Evil Dead II</div>
-                        <p>1987</p>
-                    </div>
-                    <div class="column">
-                    <div class="card">The Batman</div>
-                        <p>2022</p>
-                    </div>
-                </div>
+        <div class="row">
+            <div class="column">
+            <div class="card">Jojo's Bizarre Adventure</div>
+              <img class="book" src="Favorites/Books/Jojos_Bizarre_Adventure_Cover.jpg" alt="Jojo's Bizarre Adventure Cover" class="center">
+              <p>Hirohiko Araki</p>
+            </div>
+            <div class="column">
+            <div class="card">Kaguya-sama: Love Is War</div>
+              <img class="book" src="Favorites/Books/Kaguya-sama_Love_Is_War_Cover.jpg" alt="Kaguya-sama: Love Is War Cover" class="center">
+              <p>Aka Akasaka</p>
+            </div>
+            <div class="column">
+            <div class="card">Preacher</div>
+              <img class="book" src="Favorites/Books/Preacher_Cover.png" alt="Preacher Cover" class="center">
+              <p>Garth Ennis & Steve Dillon</p>
+            </div>
+            <div class="column">
+            <div class="card">Vagabond</div>
+              <img class="book" src="Favorites/Books/Vagabond_Cover.png" alt="Vagabond Cover" class="center">
+              <p>Takehiko Inoue</p>
+            </div>
+            <div class="column">
+            <div class="card">Vinland Saga</div>
+              <img class="book" src="Favorites/Books/Vinland_Saga_Cover.jpg" alt="Vinland Saga Cover" class="center">
+              <p>Makoto Yukimura</p>
+            </div>
         </div>
-
-        <div id="Books" class="tabcontent">
-            <h3>Books</h3>
-        </div>
-
-        
+    </div>  
 </body>
 </html>
