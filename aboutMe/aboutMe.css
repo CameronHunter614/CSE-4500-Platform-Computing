@@ -32,6 +32,10 @@ p.indent {
   text-indent: 0.5in;
 }
 
+p.card {
+  text-align: center;
+}
+
 button {
   color: white;
   font-weight: bolder;
