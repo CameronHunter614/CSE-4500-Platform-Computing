@@ -26,6 +26,7 @@ The following **bonus** features are implemented:
 
 ## Screenshot and/or Video Walkthrough
 
+<<<<<<< Updated upstream
 <img src="Favorites\Screenshots\screenshot1.PNG" alt='Screenshot 1' />
 <img src="Favorites\Screenshots\screenshot2.PNG" alt='Screenshot 2' />
 <img src="Favorites\Screenshots\screenshot3.PNG" alt='Screenshot 3' />
@@ -42,3 +43,21 @@ The following **bonus** features are implemented:
 <img src="Favorites\Screenshots\screenshot14.PNG" alt='Screenshot 14' />
 <img src="Favorites\Screenshots\screenshot15.PNG" alt='Screenshot 15' />
 <img src="Favorites\Screenshots\screenshot16.PNG" alt='Screenshot 16' />
+=======
+<img src="aboutMe\Favorites\Screenshots\screenshot1.PNG" alt='Screenshot 1' />
+<img src="aboutMe\Favorites\Screenshots\screenshot2.PNG" alt='Screenshot 2' />
+<img src="aboutMe\Favorites\Screenshots\screenshot3.PNG" alt='Screenshot 3' />
+<img src="aboutMe\Favorites\Screenshots\screenshot4.PNG" alt='Screenshot 4' />
+<img src="aboutMe\Favorites\Screenshots\screenshot5.PNG" alt='Screenshot 5' />
+<img src="aboutMe\Favorites\Screenshots\screenshot6.PNG" alt='Screenshot 6' />
+<img src="aboutMe\Favorites\Screenshots\screenshot7.PNG" alt='Screenshot 7' />
+<img src="aboutMe\Favorites\Screenshots\screenshot8.PNG" alt='Screenshot 8' />
+<img src="aboutMe\Favorites\Screenshots\screenshot9.PNG" alt='Screenshot 9' />
+<img src="aboutMe\Favorites\Screenshots\screenshot10.PNG" alt='Screenshot 10' />
+<img src="aboutMe\Favorites\Screenshots\screenshot11.PNG" alt='Screenshot 11' />
+<img src="aboutMe\Favorites\Screenshots\screenshot12.PNG" alt='Screenshot 12' />
+<img src="aboutMe\Favorites\Screenshots\screenshot13.PNG" alt='Screenshot 13' />
+<img src="aboutMe\Favorites\Screenshots\screenshot14.PNG" alt='Screenshot 14' />
+<img src="aboutMe\Favorites\Screenshots\screenshot15.PNG" alt='Screenshot 15' />
+<img src="aboutMe\Favorites\Screenshots\screenshot16.PNG" alt='Screenshot 16' />
+>>>>>>> Stashed changes
