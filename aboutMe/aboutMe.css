@@ -25,11 +25,10 @@ h3{
 
 p {
   text-align: left;
-}
-
-p.indent {
-  text-align: left;
-  text-indent: 0.5in;
+  
+  .indent {
+    text-indent: 0.5in;
+  }
 }
 
 p.center {
