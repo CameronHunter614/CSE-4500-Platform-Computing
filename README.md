@@ -42,10 +42,3 @@ The following **bonus** features are implemented:
 <img src="Favorites\Screenshots\screenshot14.PNG" alt='Screenshot 14' />
 <img src="Favorites\Screenshots\screenshot15.PNG" alt='Screenshot 15' />
 <img src="Favorites\Screenshots\screenshot16.PNG" alt='Screenshot 16' />
-
-## Notes:
-PROVIDE RELEVANT OR ADDITIONAL INFORMATION HERE. Below are formatting options to add emphasis in text
-<ul>
-  <li>**Example in bold**</li>
-  <li>*Example in italics*</li>
-</ul>
