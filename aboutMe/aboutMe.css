@@ -37,28 +37,28 @@ button {
   font-weight: bolder;
 }
 
-img {
-  border-radius: 10px;
-}
-
 img.album {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
 }
 
 img.game {
   height: auto;
   width: 100%;
+  border-radius: 10px;
 }
 
 img.movie {
   height: auto;
   width: 100%;
+  border-radius: 10px;
 }
 
 img.book {
   height: auto;
   width: 100%;
+  border-radius: 10px;
 }
 
 * {
