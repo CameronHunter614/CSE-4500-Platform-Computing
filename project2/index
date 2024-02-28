@@ -1,0 +1,36 @@
+React and JSX
+    React
+        React is a JS library for building user interfaces
+        Dynamically generate and interact with the DOM
+            declare web apps in terms of components that can be independently managed
+                DOM creation and rendering library
+        Components are usually associated with data
+            React will automatically re-render updated components when data changes
+
+    JSX
+        JavaScript syntax extension
+            JS + HTML
+            write bare JS tags
+        JSX is not valid JS
+            must be translated into real JS
+        Transpile - compiler JSX via another toolchain Babel
+            Turns JSX into JS that the browser can understand
+
+    Setting Up React App
+        install: https://react.dev/learn/installation
+            node - v
+            npm - v
+        create app folder https://create-react-app.dev
+        run
+            npm start
+
+User Interaction Tracker
+    Assignment 2
+        track user interaction metrics
+        Due 3/11/24
+    Assignment 3
+        save metrics into a database
+        retrieve metrics and use separate application to process data
+        Due 3/18/24
+
+    
