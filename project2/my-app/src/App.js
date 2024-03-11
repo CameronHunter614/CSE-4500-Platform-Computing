@@ -3,10 +3,10 @@ import './App.css';
 function App() {
   return (
     <body>
-      <label id="darkMode" className="switch">
-        <input type="checkbox" onclick="darkMode()" />
-        <span className="slider round" />
-      </label>
+      {/*<label id="darkMode" className="switch">
+          <input type="checkbox" onclick="darkMode()" />
+          <span className="slider round" />
+      </label>*/}
 
     
       <h1>About Me</h1>
