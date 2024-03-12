@@ -1,5 +1,9 @@
 import './App.css';
 import Tabs from "./Components/TabComponent/Tabs";
+import Bear1 from "./Images/Alaska/Bear1.png";
+import Bear2 from "./Images/Alaska/Bear2.png";
+import Denali from "./Images/Alaska/Denali.png";
+import Glacier from "./Images/Alaska/Glacier.png";
 
 function App() {
   return (
@@ -62,28 +66,28 @@ function App() {
     
           <div class="responsive">
             <div class="gallery">
-              <img src="Favorites/Alaska/Glacier.png" alt="Hubbard Glacier"/>
+              <img src={Glacier} alt="Hubbard Glacier"/>
               <div class="desc">View of Hubbard Glacier from our cruise ship.</div>
             </div>
           </div>
           
           <div class="responsive">
             <div class="gallery">
-              <img src="Favorites/Alaska/Bear1.png" alt="Bear"/>
+              <img src={Bear1} alt="Bear"/>
               <div class="desc">One of the bears that live at the nature preserve.</div>
             </div>
           </div>
           
           <div class="responsive">
             <div class="gallery">
-              <img src="Favorites/Alaska/Bear2.png" alt="Bear"/>
+              <img src={Bear2} alt="Bear"/>
               <div class="desc">Another one of the bears that live at the nature preserve.</div>
             </div>
           </div>
           
           <div class="responsive">
             <div class="gallery">
-              <img src="Favorites/Alaska/Denali.png" alt="Denali"/>
+              <img src={Denali} alt="Denali"/>
               <div class="desc">View of Denali.</div>
             </div>
           </div>
