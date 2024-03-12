@@ -22,21 +22,21 @@ The following **bonus** features are implemented:
 
 ## Screenshot and/or Video Walkthrough
 
-<img src="project2\my-app\src\Images\project2_screen1.png" title='Walkthrough' width='' alt='Screenshot 1' />
-<img src="project2\my-app\src\Images\project2_screen2.png" width='' alt='Screenshot 2' />
-<img src="project2\my-app\src\Images\project2_screen3.png" width='' alt='Screenshot 3' />
-<img src="project2\my-app\src\Images\project2_screen4.png" width='' alt='Screenshot 4' />
-<img src="project2\my-app\src\Images\project2_screen5.png" width='' alt='Screenshot 5' />
-<img src="project2\my-app\src\Images\project2_screen6.png" width='' alt='Screenshot 6' />
-<img src="project2\my-app\src\Images\project2_screen7.png" width='' alt='Screenshot 7' />
-<img src="project2\my-app\src\Images\project2_screen8.png" width='' alt='Screenshot 8' />
-<img src="project2\my-app\src\Images\project2_screen9.png" width='' alt='Screenshot 9' />
-<img src="project2\my-app\src\Images\project2_screen10.png" width='' alt='Screenshot 10' />
+<img src="my-app\src\Images\project2_screen1.png" title='Walkthrough' width='' alt='Screenshot 1' />
+<img src="my-app\src\Images\project2_screen2.png" width='' alt='Screenshot 2' />
+<img src="my-app\src\Images\project2_screen3.png" width='' alt='Screenshot 3' />
+<img src="my-app\src\Images\project2_screen4.png" width='' alt='Screenshot 4' />
+<img src="my-app\src\Images\project2_screen5.png" width='' alt='Screenshot 5' />
+<img src="my-app\src\Images\project2_screen6.png" width='' alt='Screenshot 6' />
+<img src="my-app\src\Images\project2_screen7.png" width='' alt='Screenshot 7' />
+<img src="my-app\src\Images\project2_screen8.png" width='' alt='Screenshot 8' />
+<img src="my-app\src\Images\project2_screen9.png" width='' alt='Screenshot 9' />
+<img src="my-app\src\Images\project2_screen10.png" width='' alt='Screenshot 10' />
 
 ## Script Results
 
-<img src="project2\my-app\src\Images\Metric_Tracker_Screenshot.png" width='' alt='Metric Tracker Screenshot' />
-<img src="project2\my-app\src\Images\Selenium_Tutorial_Screenshot.png" width='' alt='Selenium Tutorial Screenshot' />
+<img src="my-app\src\Images\Metric_Tracker_Screenshot.png" width='' alt='Metric Tracker Screenshot' />
+<img src="my-app\src\Images\Selenium_Tutorial_Screenshot.png" width='' alt='Selenium Tutorial Screenshot' />
 
 
 ## Notes:
