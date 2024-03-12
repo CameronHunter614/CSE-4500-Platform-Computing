@@ -3,15 +3,15 @@ from selenium import webdriver
 import collections
 import csv
 
-def writeToCSV(filename: str, metrics: dict):
-    with open(file=filename+".csv", mode="w", newline="") as fp:
-        writer = csv.DictWriter(fp, fieldnames=metrics.keys())
+def writeToCSV(filename, metrics):
+    with open(filename, 'w', newline='') as csvfile:
+        csvwriter = csv.writer(csvfile)
 
         # Write header row
-        writer.writeheader()
+        csvwriter.writerow(fields)
 
         # Write data rows
-        writer.writerow(v)
+        csvwriter.writerow(metrics)
 
 def main():
     # Initialize browser
@@ -21,7 +21,9 @@ def main():
     driver.get("http://localhost:3000/")
 
     # Initialize variables
-    metrics = collections.defaultdict{list} # {Presence Time (seconds) or Scrolling (Pixels)}
+    fields = ['Timestamp', 'Action Type', 'Value']
+    metrics = [] # {Presence Time (seconds) or Scrolling (Pixels)}
+    filename = "metrics.csv"
     sample_size = 10
     count = 0
     start_time = time.time()
@@ -31,13 +33,13 @@ def main():
         current_time = time.time()
         presence_time = current_time - start_time
         print(f"Presence time: {presence_time} seconds")
-        metrics["Presence Time (Seconds)"].append(presence_time)
+        metrics.append([current_time, 'Presence', presence_time])
         
         # Track scrolling
         scroll_height = driver.execute_script("return document.body.scrollHeight")  
         current_scroll = driver.execute_script("return window.pageYOffset")
         print(f"Scrolled {current_scroll}/{scroll_height} pixels")
-        metrics["Scrolling (Pixels)"].append(current_scroll/scroll_height)
+        metrics.append([current_time, 'Scroll', current_scroll/scroll_height])
         
         count += 1
         time.sleep(2) 
