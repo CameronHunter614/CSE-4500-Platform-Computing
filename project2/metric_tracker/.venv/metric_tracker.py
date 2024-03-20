@@ -3,15 +3,16 @@ from selenium import webdriver
 import collections
 import csv
 
-def writeToCSV(filename, metrics):
-    with open(filename, 'w', newline='') as csvfile:
-        csvwriter = csv.writer(csvfile)
+def writeToCSV(filename : str, metrics: dict):
+    with open(file=filename, mode="w", newline="") as fp:
+        writer = csv.Dictwriter(fp, fieldnames=metrics[0].keys())
 
         # Write header row
-        csvwriter.writerow(fields)
+        writer.writeheader()
 
         # Write data rows
-        csvwriter.writerow(metrics)
+        for metric in metrics:
+            writer.writerow(metric)
 
 def main():
     # Initialize browser
@@ -22,7 +23,7 @@ def main():
 
     # Initialize variables
     fields = ['Timestamp', 'Action Type', 'Value']
-    metrics = [] # {Presence Time (seconds) or Scrolling (Pixels)}
+    metrics = {} # {Presence Time (seconds) or Scrolling (Pixels)}
     filename = "metrics.csv"
     sample_size = 10
     count = 0
