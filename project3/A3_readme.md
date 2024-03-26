@@ -17,8 +17,7 @@ The following **bonus** features are implemented:
 them via user (2 pt).
 - [ ] DESCRIBE ANY OTHER FEATURES HERE.
 ## Screenshot and/or Video Walkthrough
-<img src="https://imgur.com/gallery/4rAXx5x" title='Example Video Walkthrough'
-width='' alt='Example Video Walkthrough' />
+<img src="project3\Images\platform_computing_assign_3_sql.PNG" title='Example Video Walkthrough' width='' alt='Example Video Walkthrough' />
 ## Notes:
 Could not get the python script to work. "import firebase_admin" could not be resolved even though it is in the venv. 
 I also tried to use MongoDB and the same issue happened with the MongoClient import statement.
