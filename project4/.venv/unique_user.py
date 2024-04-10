@@ -78,10 +78,11 @@ def main():
     
     driver = webdriver.Chrome()
     driver.get("http://localhost:3000/")
+    #driver.get("file:///Users/cameronhunter/Documents/GitHub/CSE-4500-Platform-Computing/project4/test.html")
     
     reward_time = 1
 
-    keywords = ["student", "test"]
+    keywords = ["Magic", "bass", "Music"]
     tags = ["img"]
     links = ["a"]
     buttons = ["tab1", "tab2", "tab3", "tab4"]

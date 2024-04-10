@@ -13,6 +13,7 @@ def main():
     driver = webdriver.Chrome()
 
     driver.get("http://localhost:3000/")
+    #driver.get("file:///Users/cameronhunter/Documents/GitHub/CSE-4500-Platform-Computing/project4/test.html")
     reward_time = 1
     total_reward_time = 0
     tags = ["img"]
