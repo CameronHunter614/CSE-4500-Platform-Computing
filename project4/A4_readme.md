@@ -16,10 +16,10 @@ The following **bonus** features are implemented:
 - [ ] Uploaded files for a unique user BOTH in javascript and python (1.5 pt)
 - [ ] DESCRIBE ANY OTHER FEATURES HERE.
 ## Screenshot and/or Video Walkthrough
-<img src="project4/Images/image_user.png" alt='image_user Screenshot' />
-<img src="project4/Images/keyword_user.png" alt='keyword_user Screenshot' />
-<img src="project4/Images/link_user.png" alt='link_user Screenshot' />
-<img src="project4/Images/unique_user.png" alt='unique_user Screenshot' />
+<img src="/Images/image_user.png" alt='image_user Screenshot' />
+<img src="/Images/keyword_user.png" alt='keyword_user Screenshot' />
+<img src="/Images/link_user.png" alt='link_user Screenshot' />
+<img src="/Images/unique_user.png" alt='unique_user Screenshot' />
 ## Notes:
 PROVIDE RELEVANT OR ADDITIONAL INFORMATION HERE. Below are formatting options to
 add emphasis in text
