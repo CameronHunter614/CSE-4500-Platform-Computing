@@ -16,8 +16,6 @@ The following **bonus** features are implemented:
 - [ ] Create separate Tables (SQL) or Documents (NoSQL) for each metric and relate
 them via user (2 pt).
 - [ ] DESCRIBE ANY OTHER FEATURES HERE.
-## Screenshot and/or Video Walkthrough
-<img src="project3\Images\platform_computing_assign_3_sql.PNG" title='Example Video Walkthrough' width='' alt='Example Video Walkthrough' />
 ## Notes:
 Could not get the python script to work. "import firebase_admin" could not be resolved even though it is in the venv. 
 I also tried to use MongoDB and the same issue happened with the MongoClient import statement.
