@@ -1,7 +1,5 @@
 import './App.css';
 import Tabs from "./Components/TabComponent/Tabs";
-import handleSubmit from './Handles/handlesubmit';
-import { useRef } from 'react';
 
 import Bear1 from "./Images/Alaska/Bear1.png";
 import Bear2 from "./Images/Alaska/Bear2.png";
@@ -10,29 +8,14 @@ import Glacier from "./Images/Alaska/Glacier.png";
 
 
 function App() {
-  const dataRef = useRef()
- 
-  const submithandler = (e) => {
-    e.preventDefault()
-    handleSubmit(dataRef.current.value)
-    dataRef.current.value = ""
-  }
-
   return (
     <body>
-      <div className="App">
-        <form onSubmit={submithandler}>
-          <input type= "text" ref={dataRef} />
-          <button type = "submit">Save</button>
-        </form>
-      </div>
-
+      
       {/*<label id="darkMode" className="switch">
           <input type="checkbox" onclick="darkMode()" />
           <span className="slider round" />
       </label>*/}
 
-    
       <h1>About Me</h1>
         <p class="indent">My name is Cameron Hunter. This is my second semester as a senior at CSUSB. This page is an introduction to me.</p>
     
@@ -45,6 +28,7 @@ function App() {
           <p class="indent">I do also have some experience with HTML, CSS, and JavaScript from a previous class. I took Software Engineering two semesters ago and we spent almost the whole 
             class working on our final group project which could have been a mobile app, website, game, etc. We chose to make a website that allowed users to review and look at information 
             about video games. The whole website was done with HTML, CSS, and JavaScript, so I have a decent amount of experience with web design.</p>
+          <a href="https://github.com/CameronHunter614/CSE-4500-Platform-Computing/tree/main">Here is a link to my Github</a>
     
       <h2>Hobbies</h2>
         <h3>Games</h3>

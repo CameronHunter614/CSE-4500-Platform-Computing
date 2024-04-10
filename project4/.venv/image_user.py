@@ -9,14 +9,16 @@ def countElements(driver, tag_name)->int:
     return len(driver.find_elements(By.TAG_NAME, tag_name))
 
 def main():
+    
     driver = webdriver.Chrome()
 
     driver.get("http://localhost:3000/")
-    reward_time = 10
+    reward_time = 1
     total_reward_time = 0
     tags = ["img"]
     
     for tag in tags:    
+        
         num_images = countElements(driver, tag)
         total_reward_time += reward_time * num_images
         time.sleep(total_reward_time)
